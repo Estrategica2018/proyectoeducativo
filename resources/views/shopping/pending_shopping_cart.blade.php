@@ -157,7 +157,7 @@
 
        @auth('afiliadoempresa')
        <h5 ng-show="shopping_carts.length>0" class="mt-1 mb-2 justify-content-end col-12 d-none-result d-none">
-         <button class="btn btn-outline-primary d-none" ng-click="simulator()">
+         <button class="btn btn-outline-primary" ng-click="simulator()">
          <span class="fs--1">
          <i class="btn-spinner d-none fa fa-spinner fa-spin"></i>Simular Pago</span>
          </button>
